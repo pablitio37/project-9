@@ -19,5 +19,6 @@ After appyling the jenkins password, i was logged in as seen below
   
 The installation is completed!
   
-  
 ![Capture4](https://user-images.githubusercontent.com/108102087/192900176-3ade0df3-a9f2-4a7b-b241-9c835ca7739f.PNG)
+  
+## Step 2 – Configure Jenkins to retrieve source codes from GitHub using Webhooks

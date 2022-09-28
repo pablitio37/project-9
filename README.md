@@ -15,3 +15,9 @@ I got the prompted to provide a default admin password
 After appyling the jenkins password, i was logged in as seen below
 
 ![Capture3](https://user-images.githubusercontent.com/108102087/192899317-ba087a37-88b3-44f2-8f1a-8bddfa7a425c.PNG)
+  
+  
+The installation is completed!
+  
+  
+![Capture4](https://user-images.githubusercontent.com/108102087/192900176-3ade0df3-a9f2-4a7b-b241-9c835ca7739f.PNG)

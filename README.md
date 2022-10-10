@@ -22,3 +22,14 @@ The installation is completed!
 ![Capture4](https://user-images.githubusercontent.com/108102087/192900176-3ade0df3-a9f2-4a7b-b241-9c835ca7739f.PNG)
   
 ## Step 2 – Configure Jenkins to retrieve source codes from GitHub using Webhooks
+
+It took me a while before i was able to set up my webhook and to configure Jenkins to retrieve source codes from Github using Webhook
+
+1.The first issue was when i pasted my git reposttory, i got the error "failed to connect to repository error performing git command" i previously use Mobaxterm which whenever i log in into it using my public IP address will always get this phrase "/usr/bin/xauth:  file /home/ubuntu/.Xauthority does not exist" but i will always ignore the statement since i am logged in anyway. But from the Global tool configuration part of my Jenkins, the git session will also have the error indication the path "usr/bin not found". havinf realised these, i decided to use Powershell instead of Mobaxterm and it worked.
+
+2. another issue faced was after i configured my jenkins, the console output indicate a failed process until i changed the branch to build to main from master.
+
+![project_9](https://user-images.githubusercontent.com/108102087/194921697-ea301aa8-3620-4cb6-82c8-6a2614e1354f.PNG)
+
+"Configure" your job/project and add these two configurations
+

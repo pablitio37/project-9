@@ -33,4 +33,7 @@ It took me a while before i was able to set up my webhook and to configure Jenki
 
 "Configure" your job/project and add these two configurations
 
-checking the changes made
+checking the changes made, A new build was created
+
+![text 2](https://user-images.githubusercontent.com/108102087/194925075-2de590ab-d2c0-4190-aa30-a214398cc1bc.PNG)
+

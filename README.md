@@ -43,8 +43,21 @@ A new build was created
   successfully install "publish over ssh
   
   ![text3](https://user-images.githubusercontent.com/108102087/194927979-feaf4294-f2d1-4228-a057-02463bb1ba72.PNG)
-
   
+  I got an error while trying to build another post build action which says "permission denied"
+  
+  ![text4](https://user-images.githubusercontent.com/108102087/194941700-d5f7b125-9385-4f18-ace3-1451fa630c7f.PNG)
+  
+  Then i went back to my NFS server and grant permission to the /mnt/apps file using "sudo chmod 777 ?mnt/apps" command. Thereafter the post build action retunred sucessfull
+  
+  ![text5](https://user-images.githubusercontent.com/108102087/194942482-79c08741-4d21-40e0-9380-c4b1fa362cb4.PNG)
+  
+
+  I make sure that the files in /mnt/apps have been udated – connect via SSH/Putty to your NFS server by checking README.MD file
+  
+  ![text6](https://user-images.githubusercontent.com/108102087/194942925-79a7a4cb-4dac-4510-94d9-6e38df1d2f8d.PNG)
+  
+  The changes made reflected in the NFS server.
 
 
   

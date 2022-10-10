@@ -33,3 +33,4 @@ It took me a while before i was able to set up my webhook and to configure Jenki
 
 "Configure" your job/project and add these two configurations
 
+checking the changes made
